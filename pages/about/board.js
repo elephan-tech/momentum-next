@@ -1,4 +1,4 @@
-import { Page } from "@components";
+import { Page, UnderlineStroke } from "@components";
 import { Typography, Grid } from "@material-ui/core";
 import React from "react";
 import Image from "next/image";
@@ -12,6 +12,7 @@ const board = () => {
         <Typography variant="h2" color="primary">
           Board of Directors
         </Typography>
+        <UnderlineStroke></UnderlineStroke>
         <Typography variant="body1" color="">
           Monument Academy benefits from the leadership of a seasoned Board of
           Directors with extensive expertise across a range of industries. Read
@@ -54,6 +55,7 @@ const board = () => {
             <Typography variant="h5" color="">
               Board Chair
             </Typography>
+            <UnderlineStroke></UnderlineStroke>
             <Typography variant="body1" color="">
               Tycely Williams is the Vice President of Development at the YWCA.
               Prior to that, she served as Regional Chief Development Officer at
@@ -128,6 +130,7 @@ const board = () => {
             <Typography variant="h5" color="">
               Vice Chair
             </Typography>
+            <UnderlineStroke></UnderlineStroke>
             <Typography variant="body1" color="">
               Tameria (Tami) Lewis is an educational consultant and is the
               former Deputy Director of Kingsman Academy Public Charter School.
@@ -196,6 +199,7 @@ const board = () => {
             <Typography variant="h5" color="">
               Board Member
             </Typography>
+            <UnderlineStroke></UnderlineStroke>
             <Typography variant="body1" color="">
               Donna Anthony serves as the Executive Vice President of Clinical
               Strategy for The HSC Health Care System. She is charged with
@@ -291,6 +295,7 @@ const board = () => {
             <Typography variant="h5" color="">
               Board Member
             </Typography>
+            <UnderlineStroke></UnderlineStroke>
             <Typography variant="body1" color="">
               Matthew Biel, MD, MSc is Chief of the Division of Child and
               Adolescent Psychiatry at Georgetown University Hospital and
@@ -340,10 +345,13 @@ const board = () => {
           <div
             style={{ paddingLeft: "32px", width: "auto", maxWidth: "900px" }}
           >
-            <Typography variant="h4" color="primary"></Typography>
-            <Typography variant="h5" color="">
+            <Typography variant="h4" color="primary">
               Emily Bloomfield
             </Typography>
+            <Typography variant="h5" color="">
+              Founder
+            </Typography>
+            <UnderlineStroke></UnderlineStroke>
             <Typography variant="body1" color="">
               Emily Bloomfield is the founder of Monument Academy Public Charter
               School. Ms. Bloomfield brings deep knowledge of the public school
@@ -390,6 +398,7 @@ const board = () => {
             <Typography variant="h5" color="">
               Board Member
             </Typography>
+            <UnderlineStroke></UnderlineStroke>
             <Typography variant="body1" color="">
               Neela has worked in public education in the District of Columbia
               for over a decade, including eight years at the District of
@@ -466,6 +475,7 @@ const board = () => {
             <Typography variant="h5" color="">
               Board Member
             </Typography>
+            <UnderlineStroke></UnderlineStroke>
           </div>
         </Grid>
         <hr></hr>
@@ -498,6 +508,7 @@ const board = () => {
             <Typography variant="h5" color="">
               Board Member
             </Typography>
+            <UnderlineStroke></UnderlineStroke>
           </div>
         </Grid>
       </section>

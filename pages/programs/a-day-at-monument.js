@@ -1,4 +1,4 @@
-import { Page } from "@components";
+import { Page, Heading, UnderlineStroke } from "@components";
 import { Typography, Grid } from "@material-ui/core";
 import React from "react";
 import Image from "next/image";
@@ -12,6 +12,10 @@ const aDayatMonument = () => {
         <Typography variant="h1" color="primary">
           A Day At Monument Academy
         </Typography>
+        <UnderlineStroke color="secondary"></UnderlineStroke>
+        <Heading color="primary" decoration="accent" variant="h2">
+          A Day At Monument Academy
+        </Heading>
         <Grid container direction="row" justify="center" alignItems="center">
           <div style={{ width: "auto", minWidth: "200px", maxWidth: "300px" }}>
             <Image
